@@ -1,5 +1,3 @@
-# ThreadTestDemo1
-学习线程的知识Demo1
 - 使用runnable 的意义：
 	在线程中，如果创建的线程类已经有一个父类了，由于java只能够单继承，就不能够再集成Thread类了，因此需要实现Runnable接口``` Thread thread = new Thread(new Runnable() {
             @Override
