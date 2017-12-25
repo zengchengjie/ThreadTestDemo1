@@ -7,7 +7,7 @@ package com.example.mavendemo.ThreadTest;
 public class ThreadTest {
     public static void main(String[] args){
         System.out.println("Hello World!"+Thread.currentThread().getName());
-        MyThread myThread = new MyThread();
+        MyThread myThread = new MyThread("我的Thread");
         myThread.start();
 //        myThread.start();//多次调用则会报该异常 IllegalThreadStateException
         System.out.println("运行结束！");
