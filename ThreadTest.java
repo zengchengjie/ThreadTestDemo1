@@ -1,5 +1,7 @@
 package com.example.mavendemo.ThreadTest;
 
+import com.example.mavendemo.ThreadTest.ThreadPackage.MyThread;
+
 /**
  * 1-执行线程的顺序不代表线程的执行顺序 执行顺序是随机的
  * 2-多次start后会抛出IllegalThreadStateException异常

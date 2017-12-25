@@ -1,6 +1,6 @@
-package com.example.mavendemo.ThreadTest;
+package com.example.mavendemo.ThreadTest.ThreadPackage;
 
-public class MyRunningThread extends Thread {
+public class MyRunningThread extends Thread{
     private int i;
     public MyRunningThread(int i) {
         this.i= i;

@@ -1,4 +1,4 @@
-package com.example.mavendemo.ThreadTest;
+package com.example.mavendemo.ThreadTest.ThreadPackage;
 
 public class MyThread extends Thread {
     public MyThread(String name) {
